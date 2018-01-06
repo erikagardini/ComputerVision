@@ -1,0 +1,16 @@
+﻿Compilazione avviata 15/11/2017 21:47:10.
+     1>Progetto "C:\Users\User\Documents\Visual Studio 2010\Projects\FinalTask\FinalTask\FinalTask.vcxproj" sul nodo 2 (destinazioni: build).
+     1>InitializeBuildStatus:
+         Aggiornamento timestamp di "Debug\FinalTask.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\User\Desktop\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\Visual Studio 2010\Projects\FinalTask\Debug\FinalTask.exe" /NOLOGO /LIBPATH:C:\Users\User\Desktop\opencv\build\x64\vc14\lib opencv_world330d.lib /MANIFEST /ManifestFile:"Debug\FinalTask.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\User\Documents\Visual Studio 2010\Projects\FinalTask\Debug\FinalTask.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\Visual Studio 2010\Projects\FinalTask\Debug\FinalTask.lib" /MACHINE:X86 Debug\main.obj
+     1>main.obj : error LNK2019: riferimento al simbolo esterno "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ) non risolto nella funzione "public: class cv::String & __thiscall cv::String::operator=(class cv::String const &)" (??4String@cv@@QAEAAV01@ABV01@@Z)
+     1>C:\Users\User\Documents\Visual Studio 2010\Projects\FinalTask\Debug\FinalTask.exe : fatal error LNK1120: 1 esterni non risolti
+     1>Compilazione progetto "C:\Users\User\Documents\Visual Studio 2010\Projects\FinalTask\FinalTask\FinalTask.vcxproj" (destinazioni: build) NON COMPLETATA.
+
+Compilazione NON RIUSCITA.
+
+Tempo trascorso 00:00:03.91

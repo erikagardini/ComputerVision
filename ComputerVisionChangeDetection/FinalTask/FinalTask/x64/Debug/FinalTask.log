@@ -1,0 +1,20 @@
+﻿Compilazione avviata 15/11/2017 21:52:04.
+     1>Progetto "C:\Users\User\Documents\Visual Studio 2010\Projects\FinalTask\FinalTask\FinalTask.vcxproj" sul nodo 2 (destinazioni: build).
+     1>InitializeBuildStatus:
+         Creazione di "x64\Debug\FinalTask.unsuccessfulbuild". È stato specificato "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\User\Desktop\opencv\build\include /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\Visual Studio 2010\Projects\FinalTask\x64\Debug\FinalTask.exe" /NOLOGO /LIBPATH:C:\Users\User\Desktop\opencv\build\x64\vc14\lib opencv_world330d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\FinalTask.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\User\Documents\Visual Studio 2010\Projects\FinalTask\x64\Debug\FinalTask.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\Visual Studio 2010\Projects\FinalTask\x64\Debug\FinalTask.lib" /MACHINE:X64 x64\Debug\main.obj
+         FinalTask.vcxproj -> C:\Users\User\Documents\Visual Studio 2010\Projects\FinalTask\x64\Debug\FinalTask.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\User\Documents\Visual Studio 2010\Projects\FinalTask\x64\Debug\FinalTask.exe;#1" /manifest x64\Debug\FinalTask.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Eliminazione del file "x64\Debug\FinalTask.unsuccessfulbuild" in corso.
+         Aggiornamento timestamp di "x64\Debug\FinalTask.lastbuildstate".
+     1>Compilazione progetto "C:\Users\User\Documents\Visual Studio 2010\Projects\FinalTask\FinalTask\FinalTask.vcxproj" (destinazioni: build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:02.72
